@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MakeMyTrip</title>
+    <link
+      rel="shortcut icon"
+      href="https://companieslogo.com/img/orig/MMYT-ca98a9f1.png?t=1683788455"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Mukta:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css" integrity="sha512-X/RSQYxFb/tvuz6aNRTfKXDnQzmnzoawgEQ4X8nZNftzs8KFFH23p/BA6D2k0QCM4R0sY1DEy9MIY9b3fwi+bg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css" integrity="sha512-f28cvdA4Bq3dC9X9wNmSx21rjWI+5piIW/uoc2LuQ67asKxfQjUow2MkcCNcfJiaLrHcGbed1wzYe3dlY4w9gA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="top-section">
+        <div class="nav-container">
+          <nav>
+            <div class="logo">
+              <img
+                src="https://imgak.mmtcdn.com/pwa_v3/pwa_hotel_assets/header/mmtLogoWhite.png"
+                alt="MakeMyTrip  Logo"
+              />
+            </div>
+            <div class="links">
+              <ul class="nav-links">
+                <li>
+                  <i class="header-icon super-offers">
+                    <img
+                      src="images/Super offers.PNG"
+                      alt="Super-offers-logo"
+                    />
+                  </i>
+                  <div class="headerContent">
+                    <h4>Super Offers</h4>
+                    <p>Explore great deals & offers</p>
+                  </div>
+                </li>
+                <li>
+                  <i class="header-icon biz">
+                    <img src="images/makemytrip.PNG" alt="Biz-logo" />
+                  </i>
+                  <h3>Biz</h3>
+                  <div class="headerContent">
+                    <h3>Introducing myBiz</h3>
+                    <p class="special-case-font">Business Travel Solution</p>
+                  </div>
+                </li>
+                <li>
+                  <i class="header-icon My-trips">
+                    <img src="images/myTrips.PNG" alt="" />
+                  </i>
+                  <div class="headerContent">
+                    <h4>My Trips</h4>
+                    <p>Manage your bookings</p>
+                  </div>
+                </li>
+              </ul>
+              <div class="create-account">
+                <i class="account-logo">
+                  <img class="myicon" src="images/myicon.png" alt="" />
+                </i>
+                <p class="login-para">Login or Create Account</p>
+                <select class="select-account"></select>
+              </div>
+              <div class="language">
+                <div class="flag">
+                  <img src="images/india-flag-icon.png" alt="" />
+                </div>
+                <div><h4>IN|ENG|INR</h4></div>
+                <div><select name="" id=""></select></div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div class="bottom-section">
+        <div class="input-container">
+          <div class="upper-one">
+            <ul>
+              <li class="item-container">
+                <a href="#"
+                  ><div class="icon-options">
+                    <img src="images/flight-black.PNG" alt="" />
+                  </div>
+                  <div class="icon-detail">
+                    <p>Flights</p>
+                  </div></a
+                >
+              </li>
+              <li class="item-container">
+                <a href="#"
+                  ><div class="icon-options">
+                    <img src="images/hotels.PNG" alt="" />
+                  </div>
+                  <div class="icon-detail">
+                    <p>Hotels</p>
+                  </div></a
+                >
+              </li>
+              <li class="item-container">
+                <a href="#"
+                  ><div class="icon-options">
+                    <img src="images/homestay and villa.PNG" alt="" />
+                  </div>
+                  <div class="icon-detail">
+                    <p>Homestay & Villas</p>
+                  </div></a
+                >
+              </li>
+
+              <li class="item-container">
+                <a href="#"
+                  ><div class="icon-options">
+                    <img src="images/Holiday-packages.PNG" alt="" />
+                  </div>
+                  <div class="icon-detail">
+                    <p>Holiday Packages</p>
+                  </div></a
+                >
+              </li>
+              <li class="item-container">
+                <a href="#"
+                  ><div class="icon-options">
+                    <img src="images/Trains.PNG" alt="" />
+                  </div>
+                  <div class="icon-detail">
+                    <p>Trains</p>
+                  </div></a
+                >
+              </li>
+              <li class="item-container">
+                <a href="#"
+                  ><div class="icon-options">
+                    <img src="images/buses.PNG" alt="" />
+                  </div>
+                  <div class="icon-detail">
+                    <p>Buses</p>
+                  </div></a
+                >
+              </li>
+              <li class="item-container">
+                <a href="#"
+                  ><div class="icon-options">
+                    <img src="images/Cabs.PNG" alt="" />
+                  </div>
+                  <div class="icon-detail">
+                    <p>Cabs</p>
+                  </div></a
+                >
+              </li>
+              <li class="item-container">
+                <a href="#"
+                  ><div class="icon-options">
+                    <img src="images/Currency.PNG" alt="" />
+                  </div>
+                  <div class="icon-detail">
+                    <p>Forex Card & Currency</p>
+                  </div></a
+                >
+              </li>
+              <li class="item-container">
+                <a ashref="#"
+                  ><div cls="icon-options">
+                    <img src="images/Travel Insurance.PNG" alt="" />
+                  </div>
+                  <div class="icon-detail">
+                    <p>Travel Insurance</p>
+                  </div></a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="main-portion"></div>
+          <div class="lower-one">
+            <button class="search">Search</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+        <!-- Carousel -->
+        <div class="owl-carousel">
+            <img src="images/carousel/Cruise-1.jpg" alt="">
+            <img src="images/carousel/PayDay-2.jpg" alt="">
+            <img src="images/carousel/Holidays-3.jpg" alt="">
+            <img src="images/carousel/Azerbaijan-4.jpg" alt="">
+            <img src="images/carousel/HoneyPackages-5.jpg" alt="">
+            <img src="images/carousel/Ayodhya-6.jpg" alt="">
+            <img src="images/carousel/RailCrossSell-7.jpg" alt="">
+            <img src="images/carousel/LightUp-Dubai-8.jpeg" alt="">
+            <img src="images/carousel/DubaiAttraction-9.jpeg" alt="">
+            <img src="images/carousel/Mandai-10.jpg" alt="">
+            <img src="images/carousel/CostaCruise-11.jpg" alt="">
+        </div>
+        <!-- Pay Day Sale Is Now Live ! -->
+        <div class="topDeals">
+            <div id="dealsText">
+                <h1>Pay Day Sale Is Now Live !</h1>
+                <label for="">Grab Flat 35% Off! Use Code: MMTPAYDAY</label>
+            </div>
+            <div class="topDeal-pics-container">
+              <div class="topDeal-pics">
+                
+                <div id="td-pic">
+                  <img src="images/pay-day/kerala.jpg" alt="">
+                  <div id="deal-content">
+                    <p id="td-title">Kerala<br></p>
+                    <p id="td-desc">Starting at ₹10,600<br>Per person</p>
+                  </div>
+                </div>
+                <div id="td-pic">
+                  <img src="images/pay-day/goa.jpg" alt="">
+                  <div id="deal-content">
+                    <p id="td-title">Goa<br></p>
+                    <p id="td-desc">Starting at ₹6,400<br>Per person</p>
+                  </div>
+                </div>
+                <div id="td-pic">
+                  <img src="images/pay-day/thailand.jpg" alt="">
+                  <div id="deal-content">
+                    <p id="td-title">Thailand<br></p>
+                    <p id="td-desc">Starting at ₹8,500<br>Per person</p>
+                  </div>
+                </div>
+                <div id="td-pic">
+                  <img src="images/pay-day/kashmir.jpg" alt="">
+                  <div id="deal-content">
+                    <p id="td-title">Kashmir<br></p>
+                    <p id="td-desc">Starting at ₹5,600<br>Per person</p>
+                  </div>
+                </div>
+                <div id="td-pic">
+                  <img src="images/pay-day/rajasthan-1.jpg" alt="">
+                  <div id="deal-content">
+                    <p id="td-title">Rajasthan<br></p>
+                    <p id="td-desc">Starting at ₹4,700<br>Per person</p>
+                  </div>
+                </div>
+                <div id="td-pic">
+                  <img src="images/pay-day/maldivs.jpg" alt="">
+                  <div id="deal-content">
+                    <p id="td-title">Maldives<br></p>
+                    <p id="td-desc">Starting at ₹35,200<br>Per person</p>
+                  </div>
+                </div>
+                <div id="td-pic">
+                  <img src="images/pay-day/andaman.jpg" alt="">
+                  <div id="deal-content">
+                    <p id="td-title">Andaman<br></p>
+                    <p id="td-desc">Starting at ₹12,100<br>Per person</p>
+                  </div>
+                </div>
+                <div id="td-pic">
+                  <img src="images/pay-day/himachal.jpg" alt="">
+                  <div id="deal-content">
+                    <p id="td-title">Himachal<br></p>
+                    <p id="td-desc">Starting at ₹22,000<br>Per person</p>
+                  </div>
+                </div>
+                <div id="td-pic">
+                  <img src="images/pay-day/dubai.jpg" alt="" height="207" width="138">
+                  <div id="deal-content">
+                    <p id="td-title">Dubai<br></p>
+                    <p id="td-desc">Starting at ₹25,700<br>Per person</p>
+                  </div>
+                </div>
+                <div id="td-pic">
+                  <img src="images/pay-day/northEast.jpg" alt="">
+                  <div id="deal-content">
+                    <p id="td-title">North-East<br></p>
+                    <p id="td-desc">Starting at ₹9,000<br>Per person</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+        <!-- Jackpot Deals on Top Selling Packages -->
+        <div class="jackpotDeals">
+            <div id="jackpotTitle">
+                <h1>Jackpot Deals on Top Selling Packages</h1>
+                <label for="">Save extra with our exclusive deals!</label>
+            </div>
+            <div class="jackpot-pics-container">
+              <div class="jackpot-pics">
+                
+                <div id="jp-pic">
+                  <img src="images/jackpot-deals/thailand.jpg" alt="">
+                  <div id="jackpot-content">
+                    <p id="jp-title">Thailand 5N<br></p>
+                  </div>
+                </div>
+                <div id="jp-pic">
+                  <img src="images/jackpot-deals/goa.jpg" alt="">
+                  <div id="jackpot-content">
+                    <p id="jp-title">Goa 4N<br></p>
+                  </div>
+                </div>
+                <div id="jp-pic">
+                  <img src="images/jackpot-deals/kerala.jpg" alt="">
+                  <div id="jackpot-content">
+                    <p id="jp-title">Kerala 4N<br></p>
+                  </div>
+                </div>
+                <div id="jp-pic">
+                  <img src="images/jackpot-deals/bali.jpg" alt="">
+                  <div id="jackpot-content">
+                    <p id="jp-title">Bali 6N<br></p>
+                  </div>
+                </div>
+                <div id="jp-pic">
+                  <img src="images/jackpot-deals/kashmir.jpg" alt="">
+                  <div id="jackpot-content">
+                    <p id="jp-title">Kashmir 5N<br></p>
+                  </div>
+                </div>
+                <div id="jp-pic">
+                  <img src="images/jackpot-deals/ladakh.jpg" alt="">
+                  <div id="jackpot-content">
+                    <p id="jp-title">Ladakh 5N<br></p>
+                  </div>
+                </div>
+                <div id="jp-pic">
+                  <img src="images/jackpot-deals/vietnam.jpg" alt="">
+                  <div id="jackpot-content">
+                    <p id="jp-title">Vietnam 6N<br></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <!-- Explore Holidays -->
+        <div class="explore-holidays">
+          <!-- image and picture -->
+          <div class="holiday-content1">
+            <div class="holiday-person"></div>
+            <div class="holiday-theme">
+              <p id="p1">Explore</p>
+              <p id="p2">Holidays</p>
+              <p id="p3">by theme</p>
+              <p id="p4">Pick from our specially curated packages</p>
+            </div>
+          </div>
+          <!-- Holiday images -->
+          <div class="holidayImages">
+            <div class="img1">
+              <img src="images/explore-holidays/honeymoon.jpg" alt="" style="border-radius: 10px 10px 0px 0px;">
+              <div class="picDetails">
+                <h3>HONEYMOON</h3>
+                <div class="btn1">
+                  <button>Beaches</button>
+                  <button>Hill Vacays</button>
+                </div>
+                <div class="btn2">
+                  <button>Adventure</button>
+                  <button>City Escapes</button>
+                </div>
+                <p>VIEW MORE</p>
+              </div>
+            </div>
+            <div class="img1">
+              <img src="images/explore-holidays/pilgrimage.jpg" alt="" style="border-radius: 10px 10px 0px 0px;">
+              <div class="picDetails">
+                <h3>Pilgrimage</h3>
+                <div class="btn1">
+                  <button>Ayodhya</button>
+                  <button>Varanasi</button>
+                </div>
+                <div class="btn2">
+                  <button>Gujarat</button>
+                  <button>Vaishno Devi</button>
+                </div>
+                <p>VIEW MORE</p>
+              </div>
+            </div>
+            <div class="img1">
+              <img src="images/explore-holidays/wild.jpg" alt="" style="border-radius: 10px 10px 0px 0px;">
+              <div class="picDetails">
+                <h3>Wild Escapes</h3>
+                <div class="btn1">
+                  <button>Ranthambhore</button>
+                  <button>Corbett</button>
+                </div>
+                <div class="btn2">
+                  <button>Bandhavgarh</button>
+                  <button>Kanha</button>
+                </div>
+                <p>VIEW MORE</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- International Destinations! -->
+        <div class="destinations">
+          <div id="destinationTitle">
+              <h1>International Destinations!</h1>
+          </div>
+          <div class="dest-pics-container">
+            <div class="dest-pics">
+              
+              <div id="dt-pic">
+                <img src="images/destinations/europe.jpg" alt="">
+                <div id="dest-content">
+                  <p id="dt-title">Europe<br></p>
+                  <p id="dt-desc">Starting at ₹26,700<br>Per person</p>
+                </div>
+              </div>
+              <div id="dt-pic">
+                <img src="images/destinations/thailand.jpg" alt="">
+                <div id="dest-content">
+                  <p id="dt-title">Thailand<br></p>
+                  <p id="dt-desc">Starting at ₹8,500<br>Per person</p>
+                </div>
+              </div>
+              <div id="dt-pic">
+                <img src="images/destinations/mauritius.jpg" alt="">
+                <div id="dest-content">
+                  <p id="dt-title">Mauritius<br></p>
+                  <p id="dt-desc">Starting at ₹22,200<br>Per person</p>
+                </div>
+              </div>
+              <div id="dt-pic">
+                <img src="images/destinations/dubai.jpg" alt="">
+                <div id="dest-content">
+                  <p id="dt-title">Dubai<br></p>
+                  <p id="dt-desc">Starting at ₹25,700<br>Per person</p>
+                </div>
+              </div>
+              <div id="dt-pic">
+                <img src="images/destinations/bali.jpg" alt="">
+                <div id="dest-content">
+                  <p id="dt-title">Bali<br></p>
+                  <p id="dt-desc">Starting at ₹34,800<br>Per person</p>
+                </div>
+              </div>
+              <div id="dt-pic">
+                <img src="images/destinations/singapore.jpg" alt="">
+                <div id="dest-content">
+                  <p id="dt-title">Singapore<br></p>
+                  <p id="dt-desc">Starting at ₹28,000<br>Per person</p>
+                </div>
+              </div>
+              <div id="dt-pic">
+                <img src="images/destinations/maldives.jpg" alt="">
+                <div id="dest-content">
+                  <p id="dt-title">Maldives<br></p>
+                  <p id="dt-desc">Starting at ₹35,200<br>Per person</p>
+                </div>
+              </div>
+              <div id="dt-pic">
+                <img src="images/destinations/australia.jpg" alt="">
+                <div id="dest-content">
+                  <p id="dt-title">Australia<br></p>
+                  <p id="dt-desc">Starting at ₹30,000<br>Per person</p>
+                </div>
+              </div>
+              <div id="dt-pic">
+                <img src="images/destinations/turkey.jpg" alt="">
+                <div id="dest-content">
+                  <p id="dt-title">Turkey<br></p>
+                  <p id="dt-desc">Starting at ₹64,500<br>Per person</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Explore the Unexplored -->
+        <div class="explore">
+          <div id="exploreTitle">
+              <h1>Explore the Unexplored</h1>
+          </div>
+          <div class="exp-pics-container">
+            <div class="exp-pics">
+              
+              <div id="ex-pic">
+                <img src="images/explore/vietnam.jpg" alt="">
+                <div id="ex-content">
+                  <p id="ex-title">Vietnam<br></p>
+                  <p id="ex-desc">Starting at ₹8,500<br>Per person</p>
+                </div>
+              </div>
+              <div id="ex-pic">
+                <img src="images/explore/mauritius.jpg" alt="">
+                <div id="ex-content">
+                  <p id="ex-title">Mauritius<br></p>
+                  <p id="ex-desc">Starting at ₹22,200<br>Per person</p>
+                </div>
+              </div>
+              <div id="ex-pic">
+                <img src="images/explore/gujarat.jpg" alt="">
+                <div id="ex-content">
+                  <p id="ex-title">Gujarat<br></p>
+                  <p id="ex-desc">Starting at ₹10,500<br>Per person</p>
+                </div>
+              </div>
+              <div id="ex-pic">
+                <img src="images/explore/maharashtra.jpg" alt="">
+                <div id="ex-content">
+                  <p id="ex-title">Maharashtra<br></p>
+                  <p id="ex-desc">Starting at ₹8,700<br>Per person</p>
+                </div>
+              </div>
+              <div id="ex-pic">
+                <img src="images/explore/uttarakhand.jpg" alt="">
+                <div id="ex-content">
+                  <p id="ex-title">Uttarakhand<br></p>
+                  <p id="ex-desc">Starting at ₹1,01,900<br>Per person</p>
+                </div>
+              </div>
+              <div id="ex-pic">
+                <img src="images/explore/sa.jpg" alt="">
+                <div id="ex-content">
+                  <p id="ex-title">South Africa<br></p>
+                  <p id="ex-desc">Starting at ₹1,69,400<br>Per person</p>
+                </div>
+              </div>
+              <div id="ex-pic">
+                <img src="images/explore/egypt.jpg" alt="">
+                <div id="ex-content">
+                  <p id="ex-title">Egypt<br></p>
+                  <p id="ex-desc">Starting at ₹30,000<br>Per person</p>
+                </div>
+              </div>
+              <div id="ex-pic">
+                <img src="images/explore/australia.jpg" alt="">
+                <div id="ex-content">
+                  <p id="ex-title">Australia<br></p>
+                  <p id="ex-desc">Starting at ₹22,000<br>Per person</p>
+                </div>
+              </div>
+              <div id="ex-pic">
+                <img src="images/explore/hongkong.jpg" alt="">
+                <div id="ex-content">
+                  <p id="ex-title">Hongkong<br></p>
+                  <p id="ex-desc">Starting at ₹64,500<br>Per person</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Europe Group Tour -->
+        <div class="europeTour">
+          <div class="title-container">
+            <div class="transparent-box">
+              <h2>Europe Group Tour</h2>
+            </div>
+          </div>
+          <div class="pic-container">
+            <div class="scrolbar-pictures-container">
+              <div class="tour-pic">
+                <img src="images/europe-tour/budget.jpg" alt="" style="border-radius: 5px 5px 0px 0px;">
+                <p style="font-weight: 900;font-size: 14px;line-height: 14px;font-family: 'Mukta', 'Lato', sans-serif;text-align: center;margin-top: 10px;">
+                  Starting at 1,62,000
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <br><br><br>
+
+    </main>
+    <!-- <footer>
+      <div class="footer-bottom">
+        <div class="bottom-footer-container">
+          <div class="left">
+            <div class="twitter">
+              <i class="fa-brands fa-twitter fa-xl" style="color: #ffffff"></i>
+            </div>
+            <div class="facebook">
+              <i
+                class="fa-brands fa-facebook-f fa-xl"
+                style="color: #ffffff"
+              ></i>
+            </div>
+          </div>
+          <div class="right">
+            <div class="right-container">
+              <h5>&copy 2023 MAKEMYTRIP PVT. LTD.</h5>
+              <p>
+                Country <a href="#">India </a><a href="#">USA </a
+                ><a href="#">UAE</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer> -->
+    
+    
+  </body>
+    <script
+        src="https://kit.fontawesome.com/22bbfa571b.js"
+        crossorigin="anonymous">
+    </script>
+    <!-- jquery.min.js cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- owl.carousel.min.js cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js" integrity="sha512-9CWGXFSJ+/X0LWzSRCZFsOPhSfm6jbnL+Mpqo0o8Ke2SYr8rCTqb4/wGm+9n13HtDE1NQpAEOrMecDZw4FXQGg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Owl initializer function -->
+    <!-- <script>
+        $(document).ready(function(){
+            $('.owl-carousel').owlCarousel({
+                items: 1,
+                loop: true,
+                autoplay: true,
+                autoplayTimeout: 1000,
+                autoplayHoverPause: true
+            });
+        });
+    </script> -->
+    <script>
+      $('.owl-carousel').owlCarousel({
+        items: 1,
+          loop: true,
+          // margin: 10,
+          nav: false,
+          dots: true,
+          autoplay: true,
+          autoplayTimeout:1000,
+          responsive: {
+              0: {
+                  items: 1
+              }
+          }
+      });
+  </script>
+</html>
