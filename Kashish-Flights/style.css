@@ -262,7 +262,8 @@ text-align: center;
 }
 
 .rightside_content{
-  color: black;
+  color: #888;
+  font-size: 15px;
   list-style: none;
   padding: 0;
   margin-left: auto;
@@ -277,6 +278,31 @@ text-align: center;
   border: solid 1px #9b9b9b;
   margin-right: 5px;
 }
+
+.one_way{
+  display: flex;
+}
+
+.from-to {
+  color: black;
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.from-to-box {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  padding: 18px;
+}
+
+.from-to .delhi {
+  margin-top: 8px;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
 .lower-one {
   position: absolute;
   /* border: 1px solid cyan; */
@@ -443,15 +469,17 @@ font-family: "Lato", sans-serif;
 .offers_container {
   background-color: #ffffff;
   width: 1200px;
-  height: 500px;
+  height: 600px;
   display: flex;
   border-radius: 10px;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 20px !important;
   box-shadow: 0 3px 30px 0 rgba(0, 0, 0, 0.1);
   align-items: start;
-  justify-content: center;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  overflow:scroll;
 }
 
 h2 {
@@ -516,36 +544,48 @@ h2 {
   font-size: 14px;
 }
 
-.right_side{
-  display:flex;
-}
-
-.view_all {
-  margin-left: auto;
-  margin: 0px 80px 20px 0px;
-  align-items: center;
-  cursor: pointer;
-  font-size: 16px;
-  line-height: 16px;
-  color: #008cff;
-  text-transform: uppercase;
-  font-weight: 900;
+.offer-item {
   display: flex;
-  
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.2);
+  width: 30rem;
+  padding: 12px;
+  border-radius: 12px;
 }
 
-.blue_arrow {
-  margin-left: 10px;
-  background-position: -174px -86px;
-  width: 24px;
-  height: 10px;
-  background-image: url(//imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/desktop/landingSprite@23x.png);
-  background-repeat: no-repeat;
-  display: inline-block;
-  background-size: 200px 700px;
-  font-size: 0px;
-  flex-shrink: 0;
+.offer-item .left {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  justify-content: center;
+  text-align: center;
 }
+
+.offer-item .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 12px;
+}
+
+.offer-item button {
+  width: 5rem;
+  background-color: white;
+  border: none;
+  color: #095cf4;
+  font-weight: bold;
+  align-self: flex-end;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.offer-list {
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+
+}
+
 
 .download_container{
   padding: 10px 60px 40px 40px;
@@ -726,11 +766,12 @@ p {
   padding: 30px 0 30px 40px;
   border-radius: 10px;
   width: 1200px;
-  height: 300px;
+  height: 400px;
   margin: auto;
   display: flex;
   margin-bottom: 20px;
   margin-top: 20px;
+  overflow: scroll;
 }
 
 .handpick_heading {
@@ -751,46 +792,38 @@ p {
   display: block;
   box-sizing: border-box;
 }
-.mmt_images{
-  height: 231px;    
-  overflow: hidden;
+.hp-image {
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: white;
+  padding: 18px 12px;
+  border-radius: 12px;
   position: relative;
-  border-radius: 8px;
+  height: 250px;
+  width: 220px;
+  background-size: cover;
 }
-.image_content{
-  width: 100%;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  z-index: 1;
-  border-radius: 0 0 8px 8px;
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
-  padding: 77px 12px 12px 12px;
+
+.hp-container {
+  display: flex;
+  gap: 20px;
 }
-.top_8{
-  padding: 2px 9px;
-  border-radius: 5px;
-  box-shadow: 0 2.8px 5.5px 0 rgba(0, 0, 0, 0.2);
-  background-color: #fff;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 14px;
-  font-weight: 900;
-  color: #000;
-  margin-bottom: 5px;
-  text-transform: uppercase;
+
+.lk-image {
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: white;
+  padding: 18px 12px;
+  border-radius: 12px;
+  position: relative;
+  height: 250px;
+  width: 220px;
+  background-size: cover;
 }
-.content-image{
-  line-height: 22px;
-  font-weight: 700;
-  font-size: 16px;
-}
-.mmt{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  max-height: unset;
-  max-width: 100%;
-  display: block;
-}
+
