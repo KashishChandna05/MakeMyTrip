@@ -37,8 +37,11 @@
     outline: none;
   }
   nav .logo {
-    width: 11.5%;
+    width: 9.5%;
+    height: 37px;
     cursor: pointer;
+    margin-left: -10px;
+    margin-top: 2px;
   }
   nav .logo img {
     width: 100%;
@@ -169,7 +172,7 @@
   }
   .upper-one {
     width: 80%;
-    margin: 0px auto;
+    margin: 80px auto;
     height: 100px;
     border-radius: 8px;
     padding: 8px 30px;
