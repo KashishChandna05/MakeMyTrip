@@ -253,6 +253,134 @@ main {
   margin-bottom: 20px;
   padding-bottom: 20px;
 }
+.offers-section-container{
+  background-color: #ffffff;
+  width: 1200px;
+  height: 600px;
+  display: flex;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px !important;
+  box-shadow: 0 3px 30px 0 rgba(0, 0, 0, 0.1);
+  align-items: start;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  overflow:scroll;
+}
+.offers-list h2 {
+  margin: 10px;
+  padding: 25px;
+  font-weight: 900;
+  font-size: 2em;
+  color: #393939;
+}
+
+.offers-list {
+  margin-bottom: 20px;
+  display: flex;
+  color: black;
+}
+.offers-categories{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.offers-list-links {
+  margin-left: 30px;
+  text-transform: capitalize;
+  border-bottom: solid 1px #c6c6c6;
+  display: flex;
+  list-style-type: none;
+}
+
+.offers-list li{
+  padding: 5px;
+  margin-right: 20px;
+  border-bottom: solid 3px #fff;
+  transition: all 0.2s linear;
+  position: relative;
+  display: list-item;
+  text-align: -webkit-match-parent;
+  text-transform: capitalize;
+  color: #4a4a4a;
+  flex-direction: column;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 14px;
+}
+#all-offers {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  text-transform: capitalize;
+  padding: 5px;
+  margin-right: 20px;
+  border-bottom: solid 3px #008cff;
+  transition: all 0.2s linear;
+  position: relative;
+  font-weight: 900;
+  color: #008cff;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 14px;
+}
+.offer-item {
+  display: flex;
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.2);
+  width: 30rem;
+  padding: 12px;
+  border-radius: 12px;
+}
+.offer-item-left-section{
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  justify-content: center;
+  text-align: center;
+}
+
+.offer-item-right-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 12px;
+}
+.offer-heading{
+  font-size: 1.3rem;
+   font-weight: bold
+}
+.tc{
+  margin-top: 0.5rem;
+}
+.offer-item-right-section hr{
+  width: 4rem; 
+  border: none;
+  outline: none;
+  border-bottom: 1px solid red
+}
+.offer-detail{
+color: #888;
+}
+.offer-item button {
+  width: 5rem;
+  background-color: white;
+  border: none;
+  color: #095cf4;
+  font-weight: bold;
+  align-self: flex-end;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.offer-list {
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+/*trip-money section*/
 .trip-money-block{
   cursor: pointer;
           width: 1200px;
