@@ -296,6 +296,8 @@ width: 18%;
 .image img{
 margin: 10px 0px;
 border-radius: 100%;
+width: 51px;
+height: 51px;
 }
 .box-content{
 /* background-color: violet; */
