@@ -149,14 +149,12 @@ nav .links {
 }
 .flag {
   width: 10%;
-  margin-right: 10px;
 }
 .flag img {
   width: 100%;
 }
 .bottom-section {
   position: relative;
-  height: 323px;
   width: 1200px;
   margin: 0 auto 40px;
 }
@@ -175,13 +173,11 @@ nav .links {
   border-radius: 8px;
   padding: 8px 30px;
   background-color: white;
-  
   position: relative;
   top: 0;
   left: 0;
   transform: translateY(-50%);
   box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.5);
-
   /* z-index:1; */
 }
 .upper-one ul {
@@ -331,7 +327,6 @@ text-align: center;
   font-size: 24px;
 }
 main {
-  height: 800px;
   background-color: #f2f2f2;
 }
 footer{
@@ -468,18 +463,20 @@ font-family: "Lato", sans-serif;
 
 .offers_container {
   background-color: #ffffff;
+  position: relative;
   width: 1200px;
   height: 600px;
   display: flex;
   border-radius: 10px;
   margin-top: 20px;
-  margin-bottom: 20px !important;
+  margin-bottom: 20px;
   box-shadow: 0 3px 30px 0 rgba(0, 0, 0, 0.1);
   align-items: start;
   margin: auto;
   display: flex;
   flex-direction: column;
-  overflow:scroll;
+  overflow-x: scroll;
+  font-family: "lato", sans-serif;
 }
 
 h2 {
@@ -491,7 +488,7 @@ h2 {
 }
 
 .offers {
-  margin-bottom: 20px !important;
+  margin-bottom: 20px;
   display: flex;
   color: black;
 }
@@ -771,7 +768,7 @@ p {
   display: flex;
   margin-bottom: 20px;
   margin-top: 20px;
-  overflow: scroll;
+  overflow-x: scroll;
 }
 
 .handpick_heading {
