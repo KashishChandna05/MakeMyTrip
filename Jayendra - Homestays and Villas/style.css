@@ -36,6 +36,7 @@ nav select {
   color: white;
   outline: none;
 }
+
 nav .logo {
   width: 9.5%;
   height: 37px;
@@ -108,6 +109,7 @@ nav .links {
 .create-account {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   width: 213px; /*check with mam*/
   height: 42px;
   border-radius: 4px;
@@ -136,9 +138,11 @@ nav .links {
   vertical-align: baseline;
   font-weight: 700;
 }
+
 .language {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   max-width: 15%;
   background-color: rgb(43, 55, 69);
   color: white;
@@ -249,24 +253,85 @@ nav .links {
 main {
   /* height: 800px; *//*for main height*/
   min-height: 300px;
+  position: relative;
   background-color: #f2f2f2;
   margin-bottom: 20px;
   padding-bottom: 20px;
 }
+/*major destination*/
+.circle-container{
+  background-color: #fff;
+  /* height: 482px; */
+  width: 1200px;
+  border-radius: 8px;
+  margin: 0 auto 40px;
+  display: flex;
+  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.1);
+  padding-bottom: 30px;
+  position: relative;
+  transform: translateY(-30%);
+  z-index: 5;
+  font-family:'Luto',sans-serif;
+}
+.circle-box-content1{
+/* background-color: #16467c; */
+width: 100%;
+/* height: 40px; */
+margin: 0px 30px 0px 38px;
+display: flex;
+justify-content: space-between;
+margin-bottom: 10px;
+margin-top: 23px;
+}
+.box{
+/* background-color: gray; */
+width: 350px;
+height: 70px;
+display: flex;
+}
+.image{
+/* background-color: red; */
+width: 18%;
+}
+.image img{
+margin: 10px 0px;
+border-radius: 100%;
+width: 51px;
+height: 51px;
+}
+.box-content{
+/* background-color: violet; */
+width: 82%;
+padding-top: 10px;
+}
+.box-content h3{
+font-size: 18px;
+line-height: 25px;
+font-weight: 700;
+font-family: 'Lato', sans-serif;
+}
+.box-content p{
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+font-family: 'Lato', sans-serif;
+color: #000;
+}
+/*offer section*/
 .offers-section-container{
   background-color: #ffffff;
   position: relative;
-  width: 1200px;
-  height: 600px;
+  max-width: 1200px;
+  max-height: 600px;
   border-radius: 10px;
   margin-top: 20px;
   margin-bottom: 20px;
   box-shadow: 0 3px 30px 0 rgba(0, 0, 0, 0.3);
   align-items: start;
-  margin: auto;
+  margin: -80px auto 0;
   display: flex;
   flex-direction: column;
-  overflow-x:scroll;
+  /* overflow-x:scroll; */
   font-family: "lato", sans-serif;
 
 }
@@ -333,10 +398,17 @@ main {
   font-size: 14px;
 }
 .offer-list {
-  padding: 0 2rem;
+  padding: 1rem 2rem 2rem;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 1.5rem;
+  max-width: 1150px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.offer-list::-webkit-scrollbar{
+  height: 0;
+  width: 0;
 }
 .offer-item {
   display: flex;
@@ -394,7 +466,7 @@ color: #888;
           height: 5rem;
           background-color: white;
           margin: auto;
-          padding: 0 15px 0 50px;
+          margin-top: 20px;
           border-radius: 12px;
           margin-bottom: 20px;
           border: 2px solid rgb(255, 203, 202);
