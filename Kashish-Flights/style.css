@@ -79,8 +79,19 @@ nav .links {
 .headerContent {
   padding-left: 10px;
 }
+header h3{
+  
+  font-family: "Mukta", "Lato", sans-serif;
+  color:white;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 12px;
+  vertical-align: baseline;
+  font-weight: 700;
+}
 .headerContent h3 {
   font-family: "Mukta", "Lato", sans-serif;
+  color: white;
   font-size: 14px;
   font-weight: 900;
   line-height: 12px;
