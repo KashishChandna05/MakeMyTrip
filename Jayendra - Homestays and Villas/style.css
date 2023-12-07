@@ -8,11 +8,17 @@ body {
   position: relative;
   height: 200vh;
 }
+body::-webkit-scrollbar{
+  height: 0;
+  width: 0;
+}
 header {
   color: white;
   width: 100%;
-  height: 62.3vh; /*remove this height after modeling*/
+  /* height: 62.3vh; remove this height after modeling */
   background: linear-gradient(to bottom, #061424, #16467c);
+  /* margin-bottom: 100px; */
+  padding-bottom: 60px;
 }
 .top-section {
   width: 100%;
@@ -176,7 +182,7 @@ nav .links {
 }
 .upper-one {
   width: 80%;
-  margin: 80px auto;
+  margin: 80px auto 0;
   height: 100px;
   border-radius: 8px;
   padding: 8px 30px;
@@ -186,7 +192,7 @@ nav .links {
   top: 0;
   left: 0;
   transform: translateY(-50%);
-  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.2);
 
   /* z-index:1; */
 }
@@ -249,6 +255,53 @@ nav .links {
   font-family: "lato", sans-serif;
   font-weight: 900;
   font-size: 24px;
+}
+.main-portion{
+  margin-top: -40px ;
+}
+.main-container{
+  color: #747474; 
+  font-family: "lato", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.main-container select{
+  border: none;
+  color: #095cf4;
+  display: inline-block;
+  outline: none;
+}
+.main-container div{
+  margin: 10px;
+  padding: 0px 5px 5px;
+
+}
+.booking-details{
+  display: flex;
+  width: 90%;
+  /* background-color: green; */
+  justify-content: space-between;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.hover-blue:hover{
+  background-color: rgba(0, 140, 255, 0.3);
+}
+
+.bold-text{
+  color: rgba(0,0,0 , 0.7);
+  font-weight: bold;
+}
+/* .main-portion{
+  margin-bottom: 20px;
+} */
+.main-container a{
+  text-decoration: none;
+  color: #747474;
+}
+.main-container h1{
+  color: black;
 }
 main {
   /* height: 800px; *//*for main height*/
@@ -328,7 +381,7 @@ color: #000;
   margin-bottom: 20px;
   box-shadow: 0 3px 30px 0 rgba(0, 0, 0, 0.3);
   align-items: start;
-  margin: -80px auto 0;
+  margin: -110px auto 0;
   display: flex;
   flex-direction: column;
   /* overflow-x:scroll; */
@@ -507,9 +560,6 @@ color: #888;
   /* cursor: pointer; */
 }
 
-.arrow{
-
-}
 footer {
   /* position: absolute; */
   bottom: 0px;
