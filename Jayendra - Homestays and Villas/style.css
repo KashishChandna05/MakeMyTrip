@@ -255,18 +255,28 @@ main {
 }
 .offers-section-container{
   background-color: #ffffff;
+  position: relative;
   width: 1200px;
   height: 600px;
-  display: flex;
   border-radius: 10px;
   margin-top: 20px;
-  margin-bottom: 20px !important;
-  box-shadow: 0 3px 30px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  box-shadow: 0 3px 30px 0 rgba(0, 0, 0, 0.3);
   align-items: start;
   margin: auto;
   display: flex;
   flex-direction: column;
-  overflow:scroll;
+  overflow-x:scroll;
+  font-family: "lato", sans-serif;
+
+}
+.offers-list {
+  margin-bottom: 20px;
+  height: 106px;
+  display: flex;
+  color: black;
+  /* position: fixed; */
+  top: 100px;
 }
 .offers-list h2 {
   margin: 10px;
@@ -276,11 +286,7 @@ main {
   color: #393939;
 }
 
-.offers-list {
-  margin-bottom: 20px;
-  display: flex;
-  color: black;
-}
+
 .offers-categories{
   align-items: center;
   justify-content: center;
@@ -309,7 +315,7 @@ main {
   text-decoration: none;
   font-size: 14px;
 }
-#all-offers {
+#Hotels {
   display: list-item;
   text-align: -webkit-match-parent;
   text-transform: capitalize;
@@ -326,12 +332,19 @@ main {
   text-decoration: none;
   font-size: 14px;
 }
+.offer-list {
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.5rem;
+}
 .offer-item {
   display: flex;
   box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.2);
   width: 30rem;
   padding: 12px;
   border-radius: 12px;
+  cursor: pointer;
 }
 .offer-item-left-section{
   display: flex;
@@ -353,6 +366,7 @@ main {
 }
 .tc{
   margin-top: 0.5rem;
+  color: #888;
 }
 .offer-item-right-section hr{
   width: 4rem; 
@@ -364,7 +378,7 @@ main {
 color: #888;
 }
 .offer-item button {
-  width: 5rem;
+  width: 9rem;
   background-color: white;
   border: none;
   color: #095cf4;
@@ -372,13 +386,6 @@ color: #888;
   align-self: flex-end;
   font-size: 16px;
   cursor: pointer;
-}
-
-.offer-list {
-  padding: 0 2rem;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1.5rem;
 }
 /*trip-money section*/
 .trip-money-block{
