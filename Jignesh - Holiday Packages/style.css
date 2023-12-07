@@ -817,7 +817,144 @@ line-height: 14px;
 font-family: 'Mukta', 'Lato', sans-serif;
 margin-top: 12px;
 }
+.offers-section-container{
+  background-color: #ffffff;
+  position: relative;
+  width: 1200px;
+  height: 600px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 30px 0 rgba(0, 0, 0, 0.3);
+  align-items: start;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  overflow-x:scroll;
+  font-family: "lato", sans-serif;
 
+}
+.offers-section-container::-webkit-scrollbar{
+  width: 0;
+  height: 0;
+  }
+.offers-list {
+  margin-bottom: 20px;
+  height: 106px;
+  display: flex;
+  color: black;
+  /* position: fixed; */
+  top: 100px;
+}
+.offers-list h2 {
+  margin: 10px;
+  padding: 25px;
+  font-weight: 900;
+  font-size: 2em;
+  color: #393939;
+}
+
+
+.offers-categories{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.offers-list-links {
+  margin-left: 30px;
+  text-transform: capitalize;
+  border-bottom: solid 1px #c6c6c6;
+  display: flex;
+  list-style-type: none;
+}
+
+.offers-list li{
+  padding: 5px;
+  margin-right: 20px;
+  border-bottom: solid 3px #fff;
+  transition: all 0.2s linear;
+  position: relative;
+  display: list-item;
+  text-align: -webkit-match-parent;
+  text-transform: capitalize;
+  color: #4a4a4a;
+  flex-direction: column;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 14px;
+}
+#Hotels {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  text-transform: capitalize;
+  padding: 5px;
+  margin-right: 20px;
+  border-bottom: solid 3px #008cff;
+  transition: all 0.2s linear;
+  position: relative;
+  font-weight: 900;
+  color: #008cff;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 14px;
+}
+.offer-list {
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.5rem;
+}
+.offer-item {
+  display: flex;
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.2);
+  width: 30rem;
+  padding: 12px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.offer-item-left-section{
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  justify-content: center;
+  text-align: center;
+}
+
+.offer-item-right-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 12px;
+}
+.offer-heading{
+  font-size: 1.3rem;
+   font-weight: bold
+}
+.tc{
+  margin-top: 0.5rem;
+  color: #888;
+}
+.offer-item-right-section hr{
+  width: 4rem; 
+  border: none;
+  outline: none;
+  border-bottom: 1px solid red
+}
+.offer-detail{
+color: #888;
+}
+.offer-item button {
+  width: 9rem;
+  background-color: white;
+  border: none;
+  color: #095cf4;
+  font-weight: bold;
+  align-self: flex-end;
+  font-size: 16px;
+  cursor: pointer;
+}
 /* Europe Group Tour */
 .europeTour{
 background-color: #fff;
