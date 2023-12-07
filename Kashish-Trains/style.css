@@ -38,8 +38,12 @@
     outline: none;
   }
   nav .logo {
-    width: 11.5%;
+    width: 9.5% ;
+    height: 37px;
     cursor: pointer;
+    margin-left: -10px;
+    margin-top: 2px;
+
   }
   nav .logo img {
     width: 100%;
@@ -232,7 +236,7 @@
     margin: 0 20px;
     padding: 2px 6px;
     border-radius: 20px;
-    font-size: 10px;
+    font-size: 14px;
   }
   .selected_one_way{
     border: #008cff;
@@ -252,7 +256,7 @@
     padding: 2px 6px;
     border-radius: 20px;
     color: #4a4a4a;
-    font-size: 10px;
+    font-size: 14px;
   }
   .rightside_portion{
     margin-left: auto;
@@ -467,20 +471,25 @@
     background-color: #ffffff;
     position: relative;
     width: 1200px;
-    height: 600px;
+    height: 550px;
     display: flex;
     border-radius: 10px;
-    margin-top: 20px;
+    margin-top: 35px;
     margin-bottom: 20px;
     box-shadow: 0 3px 30px 0 rgba(0, 0, 0, 0.1);
     align-items: start;
-    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
     display: flex;
     flex-direction: column;
     overflow-x: scroll;
     font-family: "lato", sans-serif;
   }
-  
+  .offers_container::-webkit-scrollbar {
+    height: 0;
+    width: 0;
+  }
+
   h2 {
     margin: 10px;
     padding: 25px;
