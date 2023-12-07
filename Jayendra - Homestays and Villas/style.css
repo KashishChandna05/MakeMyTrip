@@ -253,6 +253,7 @@ main {
   margin-bottom: 20px;
   padding-bottom: 20px;
 }
+/*offer section*/
 .offers-section-container{
   background-color: #ffffff;
   position: relative;
@@ -266,7 +267,7 @@ main {
   margin: auto;
   display: flex;
   flex-direction: column;
-  overflow-x:scroll;
+  /* overflow-x:scroll; */
   font-family: "lato", sans-serif;
 
 }
@@ -333,10 +334,17 @@ main {
   font-size: 14px;
 }
 .offer-list {
-  padding: 0 2rem;
+  padding: 1rem 2rem 2rem;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 1.5rem;
+  max-width: 1150px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.offer-list::-webkit-scrollbar{
+  height: 0;
+  width: 0;
 }
 .offer-item {
   display: flex;
@@ -394,6 +402,7 @@ color: #888;
           height: 5rem;
           background-color: white;
           margin: auto;
+          margin-top: 20px;
           padding: 0 15px 0 50px;
           border-radius: 12px;
           margin-bottom: 20px;
