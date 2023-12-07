@@ -27,3 +27,5 @@ https://kashishchandna05.github.io/MakeMyTrip/Kashish-Flights/
   <li>Yugal Kumbhare : Buses section and Cabs section</li>
 </ul>
 
+<h3>What I Learned</h3>
+<p>Through this project, we learned how to build a website that looks like MakeMyTrip using HTML and CSS. We figured out how to organize the content and make it look good on both big and small screens. We used CSS to style everything and make it visually appealing. We also learned a bit about using Git to save our work and collaborate with others. Overall, it was a nice way to practice making websites and get better at web development!</p>
